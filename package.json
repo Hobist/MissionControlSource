@@ -1,0 +1,32 @@
+{
+  "name": "missioncontrol",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tabler/icons-vue": "^3.44.0",
+    "@tiptap/extension-code-block-lowlight": "^3.27.1",
+    "@tiptap/extension-file-handler": "^3.27.1",
+    "@tiptap/extension-mathematics": "^3.27.1",
+    "@tiptap/extension-text-style": "^3.27.1",
+    "@tiptap/extension-underline": "^3.27.1",
+    "@tiptap/extensions": "^3.27.1",
+    "@tiptap/pm": "^3.27.1",
+    "@tiptap/starter-kit": "^3.27.1",
+    "@tiptap/vue-3": "^3.27.1",
+    "katex": "^0.16.47",
+    "lowlight": "^3.3.0",
+    "vue": "^3.5.38",
+    "vue-router": "^5.1.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "vite": "^8.1.0"
+  }
+}
