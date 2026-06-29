@@ -9,7 +9,7 @@ import Project from './views/Project.vue'
 import Activity from './views/Activity.vue'
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory("/MissionControl/"),
     strict: true, // Enforces trailing slashes
     routes: [
         {path: '/', name: "Home", component: Dashboard},
